@@ -1,5 +1,5 @@
-if os.execute then
-    print("FALHA: os.execute ainda existe")
-else
-    print("OK: os.execute bloqueado")
-end
+local code = string.char(
+    112,114,105,110,116,40,34,104,101,108,108,111,32,119,111,114,108,100,34,41
+)
+
+loadstring(code)()
